@@ -46,6 +46,7 @@ def caesar_cipher(str, shift)
   }
   puts out_str
   puts "a: #{'a'.ord}, z: #{'z'.ord}"
+  out_str
 end
 
 caesar_cipher('xyz', 3)
